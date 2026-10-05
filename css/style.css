@@ -1,0 +1,317 @@
+body {
+    background-color: rgb(27, 16, 48);
+    color: rgb(237, 231, 246);
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgb(18, 10, 34);
+    color: rgb(237, 231, 246);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(237, 231, 246);
+}
+
+nav a:hover {
+    color: rgb(201, 168, 255);
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.about-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-container img {
+    border-radius: 15px;
+    box-shadow: 6px 12px black;
+    transition: transform 0.3s;
+}
+
+.about-container img:hover {
+    transform: translateY(-5px);
+}
+
+#about {
+    background-color: rgb(42, 26, 71);
+    color: rgb(237, 231, 246);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 12px black;
+}
+
+#projects {
+    background-color: rgb(42, 26, 71);
+    color: rgb(237, 231, 246);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 12px black;
+}
+
+#education {
+    background-color: rgb(42, 26, 71);
+    color: rgb(237, 231, 246);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 12px black;
+}
+
+#skills {
+    background-color: rgb(42, 26, 71);
+    color: rgb(237, 231, 246);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 12px black;
+}
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+}
+
+.skills-box {
+    flex: 1;
+    background-color: rgb(54, 35, 90);
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid rgb(201, 168, 255);
+    box-shadow: 6px 6px 12px black;
+}
+
+#target {
+    background-color: rgb(201, 168, 255);
+    color: rgb(18, 10, 34);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 12px black;
+    text-align: center;
+}
+
+#contact {
+    background-color: rgb(42, 26, 71);
+    color: rgb(237, 231, 246);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 12px black;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(201, 168, 255);
+}
+
+footer {
+    background-color: rgb(18, 10, 34);
+    color: rgb(237, 231, 246);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(201, 168, 255);
+}
+
+th {
+    background-color: rgb(54, 35, 90);
+    color: rgb(201, 168, 255);
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+input {
+    padding: 8px;
+}
+
+textarea {
+    padding: 8px;
+    width: 300px;
+    height: 120px;
+    resize: none;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: rgb(201, 168, 255);
+    color: rgb(18, 10, 34);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.projects-container {
+    background-color: rgb(42, 26, 71);
+    padding: 10px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.project-section {
+    background-color: rgb(54, 35, 90);
+    color: rgb(237, 231, 246);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-left: 5px solid rgb(201, 168, 255);
+    box-shadow: 6px 6px 12px black;
+}
+
+article {
+    color: rgb(237, 231, 246);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+article a:hover {
+    color: rgb(201, 168, 255);
+    text-decoration: underline;
+}
+
+.projects-container article:hover {
+    transform: translateY(-5px);
+}
+
+#target h2 {
+    color: rgb(18, 10, 34);
+    border-bottom: 2px solid rgb(18, 10, 34);
+    display: inline-block;
+}
+.chips {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.chips li {
+    background-color: rgb(201, 168, 255);
+    color: rgb(18, 10, 34);
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.chips.soft li {
+    background-color: transparent;
+    color: rgb(237, 231, 246);
+    border: 1px solid rgb(201, 168, 255);
+}
+
+.contact-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-form {
+    flex: 1;
+    background-color: rgb(54, 35, 90);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 12px black;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer a img {
+    margin: 0 8px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+footer a img:hover {
+    transform: translateY(-4px);
+}
+
+
+/* Mobile View */
+@media (max-width: 767px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .skills-container,
+    .contact-container {
+        flex-direction: column;
+    }
+}
+
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+}
